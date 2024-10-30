@@ -1,0 +1,299 @@
+/* RESET */
+.mortgage-center div, .mortgage-center dl, .mortgage-center dt, .mortgage-center dd, .mortgage-center ul, .mortgage-center ol, .mortgage-center li, .mortgage-center h1, .mortgage-center h2, .mortgage-center h3, .mortgage-center h4, .mortgage-center h5, .mortgage-center h6, .mortgage-center pre, .mortgage-center code, .mortgage-center form, .mortgage-center fieldset, .mortgage-center legend, .mortgage-center input, .mortgage-center button, .mortgage-center textarea, .mortgage-center p, .mortgage-center blockquote, .mortgage-center th, .mortgage-center td
+{
+    margin: 0;
+    padding: 0;
+}
+.mortgage-center fieldset, .mortgage-center img
+{
+    border: 0;
+}
+.mortgage-center li
+{
+    list-style: none;
+	text-indent: 0;
+}
+.mortgage-center li:before, .mortgage-center li:before
+{
+	content: "" !important;
+}
+.mortgage-center h1, .mortgage-center h2, .mortgage-center h3, .mortgage-center h4, .mortgage-center h5, .mortgage-center h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+.mortgage-center div
+{
+    text-align: left;
+}
+.clear
+{
+    clear: both;
+}
+
+/* OVERALL */
+.mortgage-center
+{
+    margin-top: 5px;
+}
+.mortgage-center p
+{
+    margin: 15px 0;
+}
+.mortgage-center h2, .mortgage-center h3
+{
+    margin: 20px 0 5px 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+.mortgage-center dd
+{
+	margin-left: 20px;
+}
+
+/* HEADER */
+.mortgage-center-header
+{
+    height: 68px;
+	position: relative;
+}
+.mortgage-center-header-left
+{
+    background-image: url(../images/header.png);
+    float: left;
+    width: 11px;
+    height: 68px;
+}
+div.mortgage-center-header-middle
+{
+    background-image: url(../images/header-middle.png);
+    background-repeat: repeat-x;
+    height: 61px;
+    margin: 0 11px;
+    padding: 15px 11px 0 0;
+    text-align: center;
+}
+#mortgage-center-powered-by
+{
+	font-size: 9px;
+	margin-top: 7px;
+	text-align: center;
+}
+#mortgage-center-powered-by img
+{
+	vertical-align: bottom;
+}
+.mortgage-center-header-right
+{
+    background-image: url(../images/header.png);
+    background-position: 11px 0;
+    position: absolute;
+    width: 11px;
+    height: 68px;
+    top: 0;
+    right: 0;
+}
+
+/* CONTAINER */
+.mortgage-center .mortgage-center-container
+{
+    margin-top: 20px;
+}
+.mortgage-center-container-cap
+{
+	position: relative;
+}
+.mortgage-center-container-cap div
+{
+    width: 9px;
+    background-image: url(../images/container.png);
+    position: absolute;
+    top: 0;
+}
+.mortgage-center-container-top div, .mortgage-center-container-top h3
+{
+    height: 28px;
+}
+.mortgage-center .mortgage-center-container-top h3
+{
+    background-image: url(../images/container-middle-top.png);
+    background-repeat: repeat-x;
+    font-size: 12px;
+    font-weight: bold;
+    height: 21px;
+    margin: 0 9px;
+    padding-left: 5px;
+    padding-top: 7px;
+    text-transform: uppercase;
+}
+.mortgage-center-container-top-left
+{
+    background-position: 0 0;
+    left: 0;
+    top: 0;
+}
+.mortgage-center-container-top-right
+{
+    background-position: 9px 0;
+    right: 0;
+    top: 0;
+}
+div.mortgage-center-container-body
+{
+    border-left: 1px solid #A1A1A1;
+    border-right: 1px solid #A1A1A1;
+    padding: 6px;
+	overflow: hidden;
+}
+.mortgage-center .mortgage-center-container-bottom
+{
+    border-bottom: 1px solid #A1A1A1;
+    height: 8px;
+    margin: 0 9px;
+}
+.mortgage-center-container-bottom div
+{
+    height: 9px;
+}
+.mortgage-center-container-bottom-left
+{
+    background-position: 0 9px;
+    left: -9px;
+}
+.mortgage-center-container-bottom-middle
+{
+    border-bottom: 1px solid #A1A1A1;
+    background-image: none;
+    width: 100%;
+}
+.mortgage-center-container-bottom-right
+{
+    background-position: 9px 9px;
+    right: -9px;
+}
+
+/* INSIDE CONTAINER (GENERAL) */
+.mortgage-center h4
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.mortgage-center table
+{
+	width: 100%;
+}
+.mortgage-center table td, .mortgage-center table th
+{
+	padding: 5px;
+}
+.mortgage-center table th
+{
+	text-align: center;
+}
+tr.mortgage-center-primary
+{
+}
+tr.mortgage-center-secondary
+{
+    background-color: #F2F7FF;
+}
+td.mortgage-center-primary-value
+{
+    color: #C16D16;
+}
+div.mortgage-center-branding-link
+{
+	margin: 15px 0 0 8px;
+}
+
+/* RATES */
+.mortgage-center-rate
+{
+	text-align: center;
+}
+
+/* MORTGAGE CALCULATOR */
+#mortgage-center-more-calculators
+{
+	background-image:none;
+	float:right;
+	font-size:10px;
+	height:auto;
+	margin-top:6px;
+	right:10px;
+	text-align:right;
+	width:100%;
+}
+#mortgage-center-calc-input-container
+{
+	text-align: center;
+}
+#mortgage-center-calc-input
+{
+	padding: 8px 8px;
+}
+#mortgage-center-calc-input label, #mortgage-center-calc-input input
+{
+	margin-right: 3px;
+}
+#mortgage-center-calc-hp
+{
+	width: 30px;
+}
+#mortgage-center-calc-pd
+{
+	width: 30px;
+}
+#mortgage-center-calc-zip
+{
+	width: 30px;
+}
+input#mortgage-center-calc-submit
+{
+	margin: -3px 0 0;
+}
+
+/* CLOSING.COM COST CALCULATOR */
+#mortgage-center-closing-costs-iframe
+{
+	border-style: none;
+	height: 790px;
+	width: 450px;
+	overflow: hidden;
+}
+#ccWidgetWrapper
+{
+    margin: 0 auto;
+    width: 420px;
+    height: 885px;
+    padding: 8px;
+}
+#ccWidgetFooter p
+{
+    font-size: 9px;
+    font-family: arial;
+}
+#ccWidgetFooter h3
+{
+    font-size: 9px;
+    font-family: arial;
+}
+
+/* HELP */
+#mortgage-center-articles
+{
+}
+#mortgage-center-articles li
+{
+	float: left;
+	width: 45%;
+	list-style: disc;
+}
+.mortgage-center-news-source
+{
+	opacity: .8;
+	font-size: 11px; 
+}
